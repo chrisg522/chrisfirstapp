@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-ftoe2(f+t@@mmyv1!l&&!3=x6a0)6!+@9&zob9=_a_iz*ewkg7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["chris1995enterprise.pythonanywhere.com"]
 
 
 # Application definition
@@ -70,7 +70,7 @@ DATABASES = {
         'NAME':'chrisfirstapp',
         'USER': 'root',
         'PASSWORD':'Chris098765',
-        'HOST':'localhost',
+        'HOST':'chris1995enterprise.mysql.pythonanywhere-services.com',
         'PORT':'3306',
     }
 }
